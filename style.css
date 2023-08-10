@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=PT+Sans+Narrow&family=Poppins:wght@200;400&family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    background-color: black;
+}
+
+.apresentacao {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 40px 0px 40px;
+}
+
+h1 {
+    font-family: 'Krona One', sans-serif;
+}
+
+.container {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+img {
+    width: 290px;
+    border-radius: 16px;
+}
+
+button {
+    background-color: aqua;
+    padding: 20px;
+    width: 180px;
+    border: none;
+    border-radius: 16px;
+}
+
+.button {
+    display: flex;
+    gap: 60px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+strong {
+    color: aqua;
+}
